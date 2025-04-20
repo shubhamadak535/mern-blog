@@ -1,0 +1,20 @@
+{
+    "files": [],
+    "references": [
+      
+    ],
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      },
+      //for auto imports
+      "module": "ES6",
+      "jsx": "preserve",
+      "checkJs": true,
+    },
+    "exclude": ["node_modeules", "**/node_modules/*"]
+
+
+  }
+  
